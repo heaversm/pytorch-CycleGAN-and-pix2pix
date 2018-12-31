@@ -112,6 +112,11 @@ python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
 ```bash
 bash ./datasets/download_pix2pix_dataset.sh facades
 ```
+- Start Visdom Server
+```
+python -m visdom.server
+```
+
 - Train a model:
 ```bash
 #!./scripts/train_pix2pix.sh
